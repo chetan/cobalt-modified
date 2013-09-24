@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>comment</key>
-	<string>Based on 'Cobalt' by Jacob Rus and ‘Slate’ by Wilson Miner</string>
 	<key>author</key>
 	<string>Chetan Sarva</string>
+	<key>comment</key>
+	<string>Based on 'Cobalt' by Jacob Rus and ‘Slate’ by Wilson Miner</string>
 	<key>name</key>
 	<string>Cobalt Modified</string>
 	<key>settings</key>
@@ -14,17 +14,17 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#002240</string>
+				<string>#080C3B</string>
 				<key>caret</key>
 				<string>#FFFFFF</string>
 				<key>foreground</key>
 				<string>#FFFFFF</string>
 				<key>invisibles</key>
-				<string>#FFFFFF26</string>
+				<string>#FFFFFF4A</string>
 				<key>lineHighlight</key>
-				<string>#00000059</string>
+				<string>#FFFFFF33</string>
 				<key>selection</key>
-				<string>#B36539BF</string>
+				<string>#FFFFFF33</string>
 			</dict>
 		</dict>
 		<dict>
@@ -37,7 +37,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#E1EFFF</string>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -99,6 +99,8 @@
 			<string>string -string.unquoted.old-plist -string.unquoted.heredoc, string.unquoted.heredoc string</string>
 			<key>settings</key>
 			<dict>
+				<key>background</key>
+				<string>#080C3B</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -188,12 +190,10 @@
 			<string>text source, string.unquoted.heredoc, source source</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#223545</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#3AD900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,6 +509,8 @@
 			<dict>
 				<key>background</key>
 				<string>#130D26</string>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -550,6 +552,61 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#C8E4FD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F92672</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#A6E22E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#967EFB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter ignored</string>
+			<key>scope</key>
+			<string>markup.ignored.git_gutter</string>
+			<key>settings</key>
+			<dict>
+			    <key>foreground</key>
+			    <string>#565656</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter untracked</string>
+			<key>scope</key>
+			<string>markup.untracked.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#565656</string>
 			</dict>
 		</dict>
 	</array>
