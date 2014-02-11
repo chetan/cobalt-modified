@@ -22,9 +22,9 @@
 				<key>invisibles</key>
 				<string>#FFFFFF4A</string>
 				<key>lineHighlight</key>
-				<string>#FFFFFF33</string>
+				<string>#FFFFFF1A</string>
 				<key>selection</key>
-				<string>#FFFFFF33</string>
+				<string>#FFFFFF1A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -594,8 +594,8 @@
 			<string>markup.ignored.git_gutter</string>
 			<key>settings</key>
 			<dict>
-			    <key>foreground</key>
-			    <string>#565656</string>
+				<key>foreground</key>
+				<string>#565656</string>
 			</dict>
 		</dict>
 		<dict>
